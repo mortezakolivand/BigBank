@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Big Bank</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+<!--<link href="assets/css/style.css" rel="stylesheet">-->
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1><a href="index.html">Big Bank</a></h1>
+      </div>
+
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section class="hero-section" id="hero">
+
+    <div class="wave">
+
+      <svg width="100%" height="355px" viewBox="0 0 1920 355" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="Apple-TV" transform="translate(0.000000, -402.000000)" fill="#FFFFFF">
+            <path d="M0,439.134243 C175.04074,464.89273 327.944386,477.771974 458.710937,477.771974 C654.860765,477.771974 870.645295,442.632362 1205.9828,410.192501 C1429.54114,388.565926 1667.54687,411.092417 1920,477.771974 L1920,757 L1017.15166,757 L0,757 L0,439.134243 Z" id="Path"></path>
+          </g>
+        </g>
+      </svg>
+
+    </div>
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 hero-text-image">
+          <div class="row">
+            <div class="col-lg-8 text-center text-lg-start">
+              <h1 data-aos="fade-right">Home loan with Bigbank effect</h1>
+              <p class="mb-5" data-aos="fade-right" data-aos-delay="100">Bigbank is the only home loan in Estonia with a special schedule for buying a dream home</p>
+              <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a th:href="@{/login}" class="btn btn-outline-white">Login</a></p>
+            </div>
+            <div class="col-lg-4 iphone-wrap">
+              <img src="/img/phone_1.png" alt="Image" class="phone-1" data-aos="fade-right">
+              <img src="img/phone_2.png" alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Home Section ======= -->
+    <section class="section">
+      <div class="container">
+
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-8" data-aos="fade-up">
+            <h2 class="section-heading">Loan in four easy steps</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="">
+            <div class="feature-1 text-center">
+              <div class="wrap-icon icon-1">
+<h1 class="display-6 text-white">1</h1>
+              </div>
+              <h3 class="mb-3">Apply without leaving home</h3>
+              <p>Apply conveniently in a few minutes at bigbank.ee</p>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="feature-1 text-center">
+              <div class="wrap-icon icon-1">
+               <h1 class="display-6 text-white">2</h1>
+              </div>
+              <h3 class="mb-3">Upload a 4-month statement</h3>
+              <p>You can submit an account statement during the loan application or send it to us later by e-mail info@bigbank.ee</p>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-1 text-center">
+              <div class="wrap-icon icon-1">
+               <h1 class="display-6 text-white">3</h1>
+              </div>
+              <h3 class="mb-3">Digitally sign the contract</h3>
+              <p>We will send you a loan agreement by e-mail, which you can sign digitally and send back to us at info@bigbank.ee</p>
+            </div>
+          </div>
+           <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-1 text-center">
+              <div class="wrap-icon icon-1">
+               <h1 class="display-6 text-white">4</h1>
+              </div>
+              <h3 class="mb-3">Money to the account within 24 hours</h3>
+              <p>We will transfer the loan amount to your account within 24 hours at the latest. The entire loan process is digital, loan amounts up to € 14,999 are transferred to your account in seven seconds, regardless of time or day of the week.</p>
+            </div>
+          </div>
+      
+	  </div>
+
+      </div>
+    </section>
+
+    <section class="section">
+
+      <div class="container">
+	  
+	         <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-4">
+            <h2 class="section-heading">ADVANTAGES</h2>
+          </div>
+        </div>
+	  
+        <div class="row justify-content-center text-center mb-5" data-aos="fade">
+          <div >
+            <img src="img/Garanty.png" width="1080" alt="Image" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="step"> 
+              <h3>Good loan terms</h3>
+              <p>Our interest rates are one of the lowest in the Estonian loan market: interest rates on consumer loans start at 6.9% per annum on the loan balance.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="step"> 
+              <h3>Personal approach</h3>
+              <p>We deal with your loan requests quickly, flexibly and thoroughly, and we always evaluate your loan options in person.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="step"> 
+              <h3>Digital and fast</h3>
+              <p>The entire loan process is digital, loan amounts up to € 15,000 are credited to your account in seven seconds, regardless of time or day of the week.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+ 
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 ms-auto order-2">
+            <h2 class="mb-4">Loan Calculator</h2>
+            <p class="mb-4">You must log in to calculate</p>
+            <p><a href="#" class="btn btn-primary">Sign In</a></p>
+          </div>
+          <div class="col-md-6" data-aos="fade-right">
+            <img src="img/calc.jpg" alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Testimonials Section ======= -->
+<!--    <section class="section border-top border-bottom">-->
+<!--      <div class="container">-->
+<!--        <div class="row justify-content-center text-center mb-5">-->
+<!--          <div class="col-md-4">-->
+<!--            <h2 class="section-heading">REGISTRATION</h2>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="row justify-content-center text-center">-->
+<!--          <div class="col-md-8">-->
+
+<!--           <div class="container px-4 px-lg-5">-->
+
+<!--        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">-->
+<!--            <div class="col-lg-8">-->
+<!--                &lt;!&ndash; * * * * * * * * * * * * * * *&ndash;&gt;-->
+<!--                &lt;!&ndash; * * SB Forms Contact Form * *&ndash;&gt;-->
+<!--                &lt;!&ndash; * * * * * * * * * * * * * * *&ndash;&gt;-->
+<!--                &lt;!&ndash; This form is pre-integrated with SB Forms.&ndash;&gt;-->
+<!--                &lt;!&ndash; To make this form functional, sign up at&ndash;&gt;-->
+<!--                &lt;!&ndash; https://startbootstrap.com/solution/contact-forms&ndash;&gt;-->
+<!--                &lt;!&ndash; to get an API token!&ndash;&gt;-->
+<!--                <form id="contactForm" data-sb-form-api-token="API_TOKEN"-->
+<!--                      th:action="@{/process_register}" method="post" th:object="${user}"-->
+<!--                >-->
+<!--                    &lt;!&ndash; Name input&ndash;&gt;-->
+<!--                    <div class="form-floating mb-3">-->
+<!--                        <input class="form-control"  id="firstName" th:field="*{FirstName}"   type="text" placeholder="Enter your name..." data-sb-validations="required" />-->
+<!--                        <label for="firstName">First Name</label>-->
+<!--                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>-->
+<!--                    </div>-->
+<!--&lt;!&ndash;                    last Name input&ndash;&gt;-->
+<!--                    <div class="form-floating mb-3">-->
+<!--                        <input class="form-control"  id="lastName" th:field="*{LastName}" type="text" placeholder="Enter your name..." data-sb-validations="required" />-->
+<!--                        <label for="lastName">Last Name</label>-->
+<!--                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; Email address input&ndash;&gt;-->
+<!--                    <div class="form-floating mb-3">-->
+<!--                        <input class="form-control" id="email"  th:field="*{email}" type="text" placeholder="name@example.com" data-sb-validations="required,email" />-->
+<!--                        <label for="email">Email address</label>-->
+<!--                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>-->
+<!--                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; password&ndash;&gt;-->
+<!--                    <div class="form-floating mb-3">-->
+<!--                        <input class="form-control" id="password"  th:field="*{password}" type="password" placeholder="name@example.com" data-sb-validations="required,email" />-->
+<!--                        <label for="password">password</label>-->
+<!--                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>-->
+<!--                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>-->
+<!--                    </div>-->
+
+<!--&lt;!&ndash;                    <div class="d-none" id="submitSuccessMessage">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="text-center mb-3">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="fw-bolder">Form submission successful!</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                            <br />&ndash;&gt;-->
+<!--&lt;!&ndash;                            <a class="text-black" href="#login">Click here to login</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        &lt;!&ndash; Submit Button&ndash;&gt;&ndash;&gt;-->
+<!--                                        <div class="d-grid"><button class="btn btn-primary btn-xl" id="submitButton" type="submit">Submit</button></div>-->
+
+
+<!--                                    </form>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+
+<!--                        </div>-->
+<!--		  </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>&lt;!&ndash; End Testimonials Section &ndash;&gt;-->
+
+    <!-- ======= CTA Section ======= -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 me-auto text-center text-md-start mb-5 mb-md-0 text-white">
+            <h4  class="text-white" >Download the BigBank mobile app to your phone so you can access your finances anywhere, anytime.</h4>
+          </div>
+          <div class="col-md-5 text-center text-md-end">
+            <p><a href="#" class="btn d-inline-flex align-items-center"><i class="bx bxl-apple"></i><span>App store</span></a> <a href="#" class="btn d-inline-flex align-items-center"><i class="bx bxl-play-store"></i><span>Google play</span></a></p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End CTA Section -->
+
+  </main><!-- End #main -->
+
+    <div class="container">
+ 
+      <div class="row justify-content-center text-center">
+        <div class="col-md-7">
+       
+            Designed by <a href="https://www.linkedin.com/in/morteza-kolivand/">Morteza Kolivand</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
